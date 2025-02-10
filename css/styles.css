@@ -106,11 +106,9 @@ a {
 .site-link:hover,
 .site-link:focus,
 .whatsapp-link:hover,
-.whatsapp-link:focus,
-.main-text__button:hover,
-.main-text__button:focus {
-  scale: 1.02;
-  box-shadow: 0 0 0 1.8px hsla(43, 100%, 53%, 1);
+.whatsapp-link:focus {
+  scale: 1.01;
+  box-shadow: 0 0 0 2px hsla(43, 100%, 53%, 1);
 }
 
 .rights {
@@ -155,7 +153,6 @@ a {
   }
 
   .whatsapp-logo {
-    margin-left: 3%;
     width: 28.9%;
   }
   .rights {
@@ -230,12 +227,18 @@ a {
   overflow: hidden;
   transition: background 0.5s ease, color 0.3s ease, box-shadow 0.3s ease,
     transform 0.2s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 0 hsla(43, 100%, 53%, 1);
   background: linear-gradient(0deg, #00ff31 0%, #00ff31 100%),
     linear-gradient(90deg, #d9d9d9 0%, #737373 100%);
   color: #000;
   border-radius: 1796px;
   transition: all 0.2s;
+}
+
+.main-text__button:hover,
+.main-text__button:focus {
+  scale: 1.01;
+  box-shadow: 0 0 0 2.5px hsla(43, 100%, 53%, 1);
 }
 
 @media screen and (max-width: 480px) {
